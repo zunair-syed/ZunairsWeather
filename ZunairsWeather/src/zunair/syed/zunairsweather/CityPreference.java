@@ -11,10 +11,8 @@ public class CityPreference {
 	}
 
 	// If the user has not chosen a city yet, return
-	// Sydney as the default city
+	// Jerusalem as the default city
 	public String getCity(){
-		//return prefs.getString("city", "Jerusalem, IS");
-		//return prefs.getString("city", "Sydney, AU");
 		return prefs.getString("city", "Jerusalem, IL");
 	}
 
