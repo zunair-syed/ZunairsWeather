@@ -68,12 +68,12 @@ public class WeatherActivity extends ActionBarActivity {
 		}
 		});
 	builder.show();
-}
+	}
 	
-public void changeCity(String city){
-WeatherFragment wf = (WeatherFragment)getSupportFragmentManager()
-.findFragmentById(R.id.container);
-wf.changeCity(city);
-new CityPreference(this).setCity(city);
-}
+	public void changeCity(String city){
+	WeatherFragment wf = (WeatherFragment)getSupportFragmentManager()
+	.findFragmentById(R.id.container);
+	wf.changeCity(city);
+	new CityPreference(this).setCity(city);
+	}
 }
